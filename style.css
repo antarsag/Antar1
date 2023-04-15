@@ -1,0 +1,44 @@
+h1{
+  text-align: center;
+  color: blue;
+}
+.snow{
+  width: 300px;
+  height: 800px;
+  margin: auto;
+  background-color: lightblue;
+  border-radius: 20px;
+  transition: 1s;
+}
+.snow:hover{
+ border-radius: 0px;
+ background-color: red;
+} 
+.top{
+  background-image: url("img/top.png");
+  background-size: 120px 120px;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  top: 20px;
+  left: 595px;
+}
+.center{
+  background-image: url("img/center.png");
+  background-size: 300px 300px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 500px;
+
+}
+.bottom{
+  background-image: url("img/bottom.png");
+  background-size: 100px 100px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 475px;
+  bottom: 31px;
+
+}
